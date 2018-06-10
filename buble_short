@@ -1,0 +1,15 @@
+package main
+
+import "fmt"
+
+func main() {
+	for a := 1; a < 10; a++ {
+		for j := 1; j < 10; j++ {
+			if j < a {
+				j++
+			}
+			fmt.Println("j is", j)
+		}
+	}
+
+}
